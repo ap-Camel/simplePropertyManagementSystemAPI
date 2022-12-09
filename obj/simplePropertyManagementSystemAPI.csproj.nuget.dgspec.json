@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {}
+    "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {
+    "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
+        "projectUniqueName": "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
         "projectName": "simplePropertyManagementSystemAPI",
-        "projectPath": "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
+        "projectPath": "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
         "packagesPath": "C:\\Users\\Ayman\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\obj\\",
+        "outputPath": "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,9 +47,40 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
             }
           },
           "imports": [
