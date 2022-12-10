@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {}
+    "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {}
   },
   "projects": {
-    "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {
+    "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
+        "projectUniqueName": "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
         "projectName": "simplePropertyManagementSystemAPI",
-        "projectPath": "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
+        "projectPath": "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\simplePropertyManagementSystemAPI.csproj",
         "packagesPath": "C:\\Users\\Ayman\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\obj\\",
+        "outputPath": "C:\\Dev\\Cs\\learning\\simplePropertyManagementSystemAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

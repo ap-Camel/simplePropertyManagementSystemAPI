@@ -1,5 +1,5 @@
 namespace simplePropertyManagementSystemAPI.Models {
-    public record systemUser {
+    public record SystemUser {
         public int ID {get; init;}
         public string firstName {get; init;}
         public string lastName {get; init;}
