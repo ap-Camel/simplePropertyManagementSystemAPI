@@ -11,7 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddSingleton<ISystemUserData, SystemUserData>();
-
+builder.Services.AddSingleton<IPropertyData, PropertyData>();
+builder.Services.AddSingleton<ITenantData, TenantData>();
 
 builder.Services.AddCors(options =>
 {
